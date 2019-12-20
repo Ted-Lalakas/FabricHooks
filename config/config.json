@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "fabric-hooks-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fabricHooks/FabricHooksWebPart.js",
+          "manifest": "./src/webparts/fabricHooks/FabricHooksWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FabricHooksWebPartStrings": "lib/webparts/fabricHooks/loc/{locale}.js"
+  }
+}

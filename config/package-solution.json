@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "fabric-hooks-client-side-solution",
+    "id": "1692f75e-2d1e-46ab-846e-350ffd8a6ce5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/fabric-hooks.sppkg"
+  }
+}
